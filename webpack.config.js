@@ -35,7 +35,7 @@ module.exports = {
       directory: path.join(__dirname, "src")
     },
     hot: isDev,
-    historyApiFallback: { index: "index.html" }
+    historyApiFallback: { index: "excel.html" }
   },
   target: 'web',
   resolve: {

@@ -32,18 +32,18 @@ module.exports = {
   devServer: {
     port: 3000,
     static: {
-      directory: path.join(__dirname, "src")
+      directory: path.join(__dirname, 'src')
     },
     hot: isDev,
-    historyApiFallback: { index: "excel.html" }
+    historyApiFallback: {index: 'excel.html'}
   },
   target: 'web',
   resolve: {
-    extensions: ['.js'],
     alias: {
       '@': path.resolve(__dirname, 'src'),
       '@core': path.resolve(__dirname, 'src/core'),
-    }
+    },
+    extensions: ['', '.js', '.jsx']
   },
   plugins: [
     new CleanWebpackPlugin(),

@@ -6,6 +6,10 @@ export class ExcelComponent extends DomListener {
     this.name = options.name || ''
   }
 
+<<<<<<< HEAD
+=======
+  // Возвращает шаблон компонента
+>>>>>>> 0dc1c50611f32a1a7371bde52975e4f0416b5f26
   toHTML() {
     return ''
   }

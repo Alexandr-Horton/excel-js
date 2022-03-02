@@ -12,7 +12,11 @@ export class Excel {
     this.components = this.components.map(Component => {
       const $el = $.create('div', Component.className)
       const component = new Component($el)
+<<<<<<< HEAD
 
+=======
+      // DEBUG
+>>>>>>> 0dc1c50611f32a1a7371bde52975e4f0416b5f26
       if (component.name) {
         window['c' + component.name] = component
       }

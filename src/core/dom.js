@@ -41,6 +41,10 @@ class Dom {
   }
 }
 
+<<<<<<< HEAD
+=======
+// event.target
+>>>>>>> 0dc1c50611f32a1a7371bde52975e4f0416b5f26
 export function $(selector) {
   return new Dom(selector)
 }

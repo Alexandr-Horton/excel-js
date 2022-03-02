@@ -19,6 +19,10 @@ export class DomListener {
         )
       }
       this[method] = this[method].bind(this)
+<<<<<<< HEAD
+=======
+      // Тоже самое что и addEventListener
+>>>>>>> 0dc1c50611f32a1a7371bde52975e4f0416b5f26
       this.$root.on(listener, this[method])
     })
   }
@@ -31,6 +35,10 @@ export class DomListener {
   }
 }
 
+<<<<<<< HEAD
+=======
+// input => onInput
+>>>>>>> 0dc1c50611f32a1a7371bde52975e4f0416b5f26
 function getMethodName(eventName) {
   return 'on' + capitalize(eventName)
 }
